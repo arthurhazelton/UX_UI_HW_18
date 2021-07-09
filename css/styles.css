@@ -2,3 +2,76 @@
    width: 200px;
    height: auto;
 }
+.header {
+   height: 40px;
+   background-color: #56CCF2;
+   text-transform: uppercase;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 300;
+}
+.pageTitle {
+   float: left;
+   padding: 10px 20px;
+}
+.navigation {
+   display: flex;
+   justify-content: flex-end;
+}
+.navitem {
+   padding: 10px 20px;
+}
+body {
+   margin: 0;
+}
+h1 {
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 24px;
+}
+.recipeContainer {
+   margin: 24px;
+}
+.recipe {
+   border: 1px solid lightgrey;
+   display: flex;
+   margin: 0 15px 15px 0;
+}
+.recipeBox {
+   display: flex;
+   justify-content: flex-start;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.recipeContent {
+   margin: 24px;
+   max-width: 300px;
+}
+button {
+   background-color: #F2C94C;
+   width: 100%;
+   font-size: 14px;
+   text-transform: uppercase;
+   border-radius: 8px;
+   border: 0;
+   height: 30px;
+   margin-top: 24px;
+}
+button a {
+   color: black;
+   text-decoration: none;
+   padding: 0 8px;
+   letter-spacing: 1px;
+}
+.footer {
+   height: 40px;
+   background-color: lightcyan;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   letter-spacing: 1px;
+   font-size: 14px;
+}
+.link {
+   color: black;
+   text-decoration: none;
+   font-weight: 600;
+}
