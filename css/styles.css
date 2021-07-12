@@ -9,6 +9,12 @@
    font-family: Arial, Helvetica, sans-serif;
    font-weight: 300;
 }
+/* when screen is smaller than 500px, the header background color will turn light grey*/
+@media only screen and (max-width: 500px) {
+   .header {
+      background-color: #c2c2c2;
+   }
+}
 .pageTitle {
    float: left;
    padding: 10px 20px;
@@ -27,6 +33,11 @@ h1 {
    font-family: Arial, Helvetica, sans-serif;
    margin: 24px;
 }
+.recipeBox {
+   display: flex;
+   justify-content: flex-start;
+   font-family: Arial, Helvetica, sans-serif;
+}
 .recipeContainer {
    margin: 24px;
 }
@@ -34,11 +45,6 @@ h1 {
    border: 1px solid lightgrey;
    display: flex;
    margin: 0 15px 15px 0;
-}
-.recipeBox {
-   display: flex;
-   justify-content: flex-start;
-   font-family: Arial, Helvetica, sans-serif;
 }
 .recipeContent {
    margin: 24px;
